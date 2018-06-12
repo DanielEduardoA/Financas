@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Receita</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="barraMenu">
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="itemMenu">Principal</a>
+                </li>
+                <li>
+                    <a href="receita.html" class="itemMenu">Receita</a>
+                </li>
+                <li>
+                    <a href="despesa.html" class="itemMenu">Despesa</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="corpo">
+        <div id="conteudo">
+            <div id="formulario">
+                <p class="titulo">Formulário</p>
+                <label>Descrição:</label> <input type="text" id="descricao">
+                <label>Valor:</label> <input type="number" id="valor">
+                <label>Data Recebimento:</label> <input type="date" id="dataRecebimento">
+                <label>Tipo de receita:</label> <input type="text" id="tipoReceita">
+                <label>Cliente:</label> <input type="text" id="cliente">
+                <label>Forma Pagamento:</label><input type="number" id="formaPagamento">
+                <input type="button" value="Salvar" id="salvarReceita">
+            </div>
+            <div id="valoresCadastrados">
+                <p class="titulo">Valores cadastrados</p>
+                <table id="receita_table">
+                    <thead>
+                        <tr>
+                                <th>Descrição</th>
+                                <th>Valor</th>
+                                <th>Data Recebimento</th>
+                                <th>Tipo de receita</th>
+                                <th>Cliente</th>
+                                <th>Forma Pagamento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="lateral">
+            <img src="despesasReceitas.jpg" alt="Contato" width="200" height="169">
+        </div>
+    </div>
+
+
+
+
+    <div id="conteudo">
+            
+
+        
+    </div>
+    <script src="js/receita.js"></script>
+</body>
+</html>

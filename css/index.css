@@ -1,0 +1,74 @@
+#barraMenu{
+    background: #181A1C;
+    margin-bottom: 0;
+    min-height: 70px;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.itemMenu{
+    font-size: 15px;
+    color: #fff;
+    text-decoration:none; 
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+#conteudoImg{
+    text-align: center;
+}
+
+#imgPrincipal{
+    width: 50%;
+    height: 50%;
+}
+
+
+#corpo {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    min-height: 400px;
+    color: #000000;
+}
+
+#conteudo {
+    float: left;
+    width: 540px;
+    padding: 20px 0px 0px 30px;
+}
+
+#lateral {
+    float: right;
+    width: 300px;
+    margin: 0px;
+    padding: 30px 0px 0px 0px;
+    min-height: 400px;
+}
+
+input[type=text],input[type=number],input[type=date], textarea {
+    display: block;
+    font-weight: normal;
+    margin: 0 0 5px;
+    padding: 4px;
+    width: 340px;
+}
+
+.titulo{
+    color: #B0030B;
+    font-size: 24px;
+}
+
+#valoresCadastrados{
+    margin-top: 30px;
+}
+
+
+
+
+
